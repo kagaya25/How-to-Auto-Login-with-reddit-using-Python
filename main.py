@@ -8,7 +8,7 @@ pwd=input('Enter Password:')
   
 driver = webdriver.Chrome(ChromeDriverManager().install()) 
 driver.get('https://www.reddit.com/login/') 
-print ("Opened facebook") 
+print ("Opened Reddit") 
 sleep(1) 
   
 username_box = driver.find_element_by_css_selector("#loginUsername")
